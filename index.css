@@ -115,3 +115,29 @@ text-align: center;
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    .fila {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .izquierda, .derecha {
+        width: 100%;
+        padding: 0.5em;
+    }
+
+    header {
+        padding: 0.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1em;
+    }
+
+    .izquierda, .derecha {
+        padding: 0.2em;
+    }
+}
