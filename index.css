@@ -1,0 +1,117 @@
+.rojo{
+    color: red;
+}
+.bold{
+    font-weight: bold;
+}
+.morado-bold{
+    color: #785d9d;
+    font-weight: bold;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+#quien {
+    margin: 20px;
+padding: 20px;
+font-size: 20px;
+line-height: 1.6;
+background-color: #fff;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+border-radius: 8px;
+}
+#quien2{
+    color: gray;
+}
+#inicio{
+font-size: 20px;
+margin: 20px;
+padding: 20px;
+font-size: 20px;
+line-height: 1.6;
+background-color:#f3efefe9;
+box-shadow: 0 12px 18px rgba(0,0,0,0.1);
+border-radius: 8px;
+color: #494949;
+}
+
+
+.primerTit {
+font-size: 60px;
+margin-bottom: 5px;
+text-shadow: 3px 2px 4px rgba(63, 62, 62, 0.2);
+font-weight:bold;
+background: linear-gradient(to right, #feb47b, #9f5aff);
+-webkit-background-clip: text;
+color: transparent;
+}
+.segundoTit {
+font-size: 60px;
+margin-bottom: 5px;
+text-shadow: 3px 2px 4px rgba(63, 62, 62, 0.2);
+font-weight:bold;
+background: linear-gradient(to left, #feb47b, #9f5aff);
+-webkit-background-clip: text;
+color: transparent;
+}
+.tercerTit {
+font-size: 60px;
+margin-bottom: 5px;
+text-shadow: 3px 2px 4px rgba(63, 62, 62, 0.2);
+font-weight:bold;
+background: linear-gradient(to right, #feb47b, #9f5aff);
+-webkit-background-clip: text;
+color: transparent;
+}
+
+
+#Name {
+    font-size: 100px;
+margin-bottom: 5px;
+text-shadow: 3px 2px 4px rgba(191, 0, 255, 0.2);
+font-weight:bold;
+background: linear-gradient(to left, #46382d, #785d9d);
+-webkit-background-clip: text;
+color: transparent;
+text-align: center;
+}
+
+#imagen img {
+    -webkit-box-shadow: 8px 8px 6px #808080;
+    -moz-box-shadow: 8px 8px 6px #808080;
+    box-shadow: 8px 8px 6px #808080;
+    max-width: 50%;
+    height: auto;
+}
+#imagen2 img {
+    -webkit-box-shadow:0 8px 8px 10px #808080;
+    -moz-box-shadow:0 8px 8px 10px #808080;
+    box-shadow:0 8px 8px 10px #808080;
+    max-width: 30%;
+    height: auto;
+}
+
+.fila {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.izquierda, .derecha {
+    width: 50%;
+    text-align: center;
+}
+
+.derecha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
