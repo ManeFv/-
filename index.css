@@ -140,4 +140,7 @@ text-align: center;
     .izquierda, .derecha {
         padding: 0.2em;
     }
+    #Name{
+        font-size: 60px;
+    }
 }
